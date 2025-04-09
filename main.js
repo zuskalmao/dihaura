@@ -1,11 +1,12 @@
 import './style.css';
-import logoSvg from './assets/logo.svg';
 import coinSvg from './assets/coin.svg';
+// Import your custom logo - update the path if needed
+import customLogo from './assets/custom-logo.png';
 
 document.querySelector('#app').innerHTML = `
   <main>
     <section class="hero">
-      <img src="${logoSvg}" alt="Dih Aura Logo" class="logo">
+      <img src="${customLogo}" alt="Dih Aura Logo" class="logo">
       <h1 class="title">DIH AURA</h1>
       <h2 class="subtitle">THE MEMECOIN WITH BIG ENERGY</h2>
       <p class="tagline">Some men have it. Some men want it. Everyone can feel it. The unmistakable presence of a man who walks with confidence. The swagger. The energy. The undeniable... DIH AURA.</p>
