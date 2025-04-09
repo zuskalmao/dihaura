@@ -1,0 +1,4 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="90" fill="#FFE66D" />
+  <text x="100" y="120" font-family="Arial" font-size="48" font-weight="bold" fill="#222831" text-anchor="middle">DA</text>
+</svg>
